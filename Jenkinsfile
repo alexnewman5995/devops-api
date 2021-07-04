@@ -9,8 +9,8 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
-                Date
+                echo 'Testing..',
+                Date,
                 ls -la
             }
         }
